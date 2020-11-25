@@ -22,7 +22,7 @@ Em dado momento, cheguei a implementar uma versão que funcionava como extensão
 
 # Vulnerabilidade de 2010 do GbAs
 
-Enquanto eu fazia a engenharia reversa no GbAs, acabei encontrando uma vulnerabilidade de RCE, reforçando minhas suspeitas de que não era seguro usar o plugin de "segurança".
+Enquanto eu fazia a engenharia reversa no GbAs, acabei encontrando uma vulnerabilidade na verificação de integridade que permitia usar o GbAs para obter RCE, reforçando minhas suspeitas de que não era seguro usar o plugin de "segurança".
 
 Essa vulnerabilidade foi apresentada na palestra *Insegurança em módulos de segurança bancários: brechas permitem invasão de computadores de correntistas*, proferida durante a edição de 2010 do [H2HC - Hackers to Hackers Conference](http://www.h2hc.com.br).
 
